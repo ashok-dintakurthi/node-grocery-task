@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": [
+            "es2020",
+            "dom"
+        ],
+        "types": [
+            "node",
+            "jest"
+        ],
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "paths": {
+            "*": [
+                "*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
+// {
+//     "compilerOptions": {
+//       // ... (other compiler options)
+//       "outDir": "./dist",       // Output directory for compiled files
+//       "rootDir": "./src",       // Root directory for source files
+//       "baseUrl": "./src",      // Base URL for module resolution
+//       "paths": {
+//         "*": ["*"]
+//       }
+//     },
+//     "include": [
+//       "src/**/*.ts"           // Include all TypeScript files in the src folder
+//     ],
+//     "exclude": [
+//       "node_modules"          // Exclude node_modules folder
+//     ]
+//   }
